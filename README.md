@@ -25,7 +25,7 @@ $client = new SearchEngine();
 $client->setEngine("google.ae");
 
 #enter search keywords
-$results = $client->search(["amazon","wassabi"]);
+$results = $client->search(["amazon","tuna"]);
 
 #print the results
 print_r($results);
