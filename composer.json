@@ -1,0 +1,21 @@
+{
+    "name": "astro/searchengine",
+    "description": "Google search crawler",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Astro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MounirSd",
+            "email": "mounir45@live.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "class": "Astro\\SearchEngine"
+    }
+}
